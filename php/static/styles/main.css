@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+
+This stylesheet targets the latest browsers only.
+
+*/
+/* 
+    Created on : Dec 20, 2020, 8:59:02 PM
+    Author     : jchen
+*/
+
+* html { display: block; }
+html, body { height: 100%; }
+body, header, nav, main, section, div, article, figure, figcaption, picture, aside, footer {
+	color: #000000; 
+        display: block;
+}
+
+a, a:active, a:focus, a:visited { color: #000000; text-decoration: none; }
+
+header { line-height:75px; display:flex; flex-direction: row-reverse; }
+header nav { display: flex; flex-direction: row; }
+header nav a { margin-left: 25px;}
+main { }
+section table { margin: 0 auto; }
+section table td { width:233.33px; text-align: center; }
+section { display: flex;  } 
+
+.main-stage { position: relative; margin: 0 auto;  }
+.main-stage-image {}
+.main-stage-btnradio { position: absolute; bottom: 25px; left: 50%; }
+.main-stage-btnradio ul { margin:0; padding:0; }
+.main-stage-btnradio ul li { float: left; margin-left: 25px; }
+.main-stage-btnradio ul li a { display: block; width:25px; height:25px; background-color:#FFFFFF; }
+
+/* Extra small devices 576px and below) */
+@media (max-width: 575px) { 
+    .category .category-article { text-align: center;}
+    article { width: 100%; flex-wrap: wrap; flex-direction: row-reverse; flex: 1 1 25%; border-radius: 5px 5px 0 0; border: 1px solid #ccc; margin: 5px; padding-bottom: 20px; }
+    article h2 { padding: 5px 0; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #AADDFF; margin: 0 0 0 0; }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .category .category-article { text-align: center;}
+    article { width: 100%; flex-wrap: wrap; flex-direction: row-reverse; flex: 1 1 25%; border-radius: 5px 5px 0 0; border: 1px solid #ccc; margin: 5px; padding-bottom: 20px; }
+    article h2 { padding: 5px 0; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #AADDFF; margin: 0 0 0 0; }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .category .category-article { text-align: center;}
+    article { width: 100%; flex-wrap: wrap; flex-direction: row-reverse; flex: 1 1 25%; border-radius: 5px 5px 0 0; border: 1px solid #ccc; margin: 5px; padding-bottom: 20px; }
+    article h2 { padding: 5px 0; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #AADDFF; margin: 0 0 0 0; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .category .category-article { text-align: center;}
+    article { width: 100%; flex-wrap: wrap; flex-direction: row-reverse; flex: 1 1 25%; border-radius: 5px 5px 0 0; border: 1px solid #ccc; margin: 5px; padding-bottom: 20px; }
+    article h2 { padding: 5px 0; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #AADDFF; margin: 0 0 0 0; }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    article { width: 100%; flex-wrap: wrap; flex-direction: row-reverse; flex: 1 1 25%; border-radius: 5px 5px 0 0; border: 1px solid #ccc; margin: 5px; padding-bottom: 20px; }
+    article h2 { padding: 5px 0; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #AADDFF; margin: 0 0 0 0; }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    article { width: 100%; flex-wrap: wrap; flex-direction: row-reverse; flex: 1 1 25%; border-radius: 5px 5px 0 0; border: 1px solid #ccc; margin: 5px; padding-bottom: 20px; }
+    article h2 { padding: 5px 0; border-top-left-radius: 5px; border-top-right-radius: 5px; background-color: #AADDFF; margin: 0 0 0 0; }
+}
